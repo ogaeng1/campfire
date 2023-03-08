@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.main-lg-responsive {
+  @apply w-[80%] lg:w-1/2 h-[95%] border overflow-y-auto flex flex-wrap justify-around px-[10px];
+}
+
+.main-lg-contents {
+  @apply w-full lg:w-2/5 h-[300px] my-[15px] border rounded-[10px] hover:shadow-[0px_0px_10px_black];
+}
+
+.main-lg-footer {
+  @apply w-[80%] lg:w-1/2 h-[5%] border flex justify-center items-center;
+}
+
+.main-lg-btn {
+  @apply lg:w-[150px] lg:h-[50px] fixed rounded-[10px] border flex lg:justify-center lg:items-center lg:text-[22px] lg:right-[10%] lg:top-[50%] cursor-pointer hover:bg-[skyblue] animate-bounce;
+}
